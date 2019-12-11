@@ -89,7 +89,8 @@ function wxgzh_getConfigObj(baseObj, res) {
       configObj.signature = signature;
       //打印最后的configObj对象
       console.log("configObj", configObj)
-      res.send({ ...configObj, appId: baseObj.appid, })
+      if(res) res.send({ ...configObj, appId: baseObj.appid, })
+      else return { ...configObj, appId: baseObj.appid}
     }
   })
 
