@@ -1,0 +1,16 @@
+{
+  "name": "wxgzh-getconfigobj",
+  "version": "1.0.0",
+  "description": "此模块用于获取微信公众号调用js-ssdk时的配置对象",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zhangluzhanglu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/acorn-globals.git"
+  }
+}
