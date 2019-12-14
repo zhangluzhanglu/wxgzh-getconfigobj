@@ -1,6 +1,6 @@
 {
   "name": "wxgzh-getconfigobj",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "此模块用于获取微信公众号调用js-ssdk时的配置对象",
   "main": "index.js",
   "scripts": {
