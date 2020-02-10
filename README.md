@@ -46,3 +46,7 @@ router.get('/getConfigObj', function (req, res, next) {
 });
 
 ```
+
+#### 注意事项
+
+    此模块只是把代码封装了而已，你在开发时，js接口安全域名和ip白名单还是需要配置的
