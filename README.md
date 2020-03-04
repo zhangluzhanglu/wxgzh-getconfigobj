@@ -14,7 +14,7 @@ var wxgzh_getConfigObj=require("wxgzh-getconfigobj");
 //获取调用js-sdk时需要的配置对象
 var configObj = wxgzh_getConfigObj(
   {
-    url: "http://******.com/",//使用此对象的前端网页的URL
+    url: "http://******.com/",//使用此对象的前端网页的URL，最后的斜杠/不要忘了哦
     appid: "wxfe0******07d707",//微信公众号的appid
     secret: "a8b5******091a1c727",//微信公众号的开发者密码
   },
